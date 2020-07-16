@@ -2,7 +2,7 @@
 
 This is demo of pointcloud streaming from a Flask based back-end to Three.js running front-end using websockets for low latency.
 
-For demo purposes KITTI raw data is used, but this framework can be adapted to any other pointcloud type of data.
+For demo purposes the open source [KITTI raw data](http://www.cvlibs.net/datasets/kitti/raw_data.php) is used, but this framework can be adapted to any other pointcloud type of data.
 
 For the back-end, Flask is used in conjunction with [Flask-socketio](https://flask-socketio.readthedocs.io/en/latest/) to enable connectivity with [Socket.io](https://socket.io/) client.
 On the front-end, [Three.js](https://threejs.org/) is used as rendering engine.
