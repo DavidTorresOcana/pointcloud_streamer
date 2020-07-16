@@ -9,7 +9,7 @@ On the front-end, [Three.js](https://threejs.org/) is used as rendering engine.
 
 Stream pointclouds from anywhere!
 <p align="center">
-  <img src="assets/demo.gif" alt="Example demo" width="600" />
+  <img src="assets/demo.gif" alt="Example demo" width="950" />
 </p>
 
 ## Get started:
