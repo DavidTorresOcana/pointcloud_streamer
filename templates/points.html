@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="{{url_for('static',filename='js/three.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/three_animation.js')}}"></script>
+    <script src="{{url_for('static',filename='js/socket.io.js')}}"></script> 
+    <script type="text/javascript" charset="utf-8">
+        var socket = io();
+        socket.on('connect', function() {
+            socket.emit('socket_ready','Sockets ready!');
+        });
+    </script>
+    </head>
+
+    <body>
+        <div id="canvas"></div>
+        <script type="text/javascript" src ="{{ url_for('static', filename = 'js/three_app.js') }}"></script>
+        
+        <script type="text/javascript">
+           socket.emit('cloud_hungry', 'cloud_hungry');// Synchronous
+//            socket.emit('cloud_stream_hungry', 'cloud_stream_hungry'); // Async
+        </script>
+        
+        
+    </body>
+    
+   
+</html>
