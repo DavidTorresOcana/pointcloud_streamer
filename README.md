@@ -23,14 +23,14 @@ If you are looking for developing/adapting your application, those are the main 
 
 ### Dependencies and installation:
 
-* python 3.5+
-    * gevent 20.6.2
-    * gevent-websocket 0.10.1
-    * flask-socketio 4.3.0
-    * Flask 1.1.2
-    * numpy 1.16.3
-    * uwsgi 2.0.19.1
-    * pykitti 0.3.1
+* python 3.6+
+    * gevent
+    * gevent-websocket
+    * flask-socketio>=5.1.1
+    * Flask
+    * numpy
+    * uwsgi
+    * pykitti
 
 To get started, install all requirements with
 ```pip3 install -r requirements.txt```
